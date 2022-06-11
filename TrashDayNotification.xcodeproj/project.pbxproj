@@ -11,6 +11,7 @@
 		E8D299CA2854BA2800847650 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D299C92854BA2800847650 /* ContentView.swift */; };
 		E8D299CC2854BA2900847650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D299CB2854BA2900847650 /* Assets.xcassets */; };
 		E8D299CF2854BA2900847650 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D299CE2854BA2900847650 /* Preview Assets.xcassets */; };
+		E8D299D62854BAD600847650 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D299D52854BAD600847650 /* NotificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E8D299C92854BA2800847650 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8D299CB2854BA2900847650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8D299CE2854BA2900847650 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8D299D52854BAD600847650 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				E8D299C72854BA2800847650 /* TrashDayNotificationApp.swift */,
 				E8D299C92854BA2800847650 /* ContentView.swift */,
+				E8D299D52854BAD600847650 /* NotificationView.swift */,
 				E8D299CB2854BA2900847650 /* Assets.xcassets */,
 				E8D299CD2854BA2900847650 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				E8D299CA2854BA2800847650 /* ContentView.swift in Sources */,
 				E8D299C82854BA2800847650 /* TrashDayNotificationApp.swift in Sources */,
+				E8D299D62854BAD600847650 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
