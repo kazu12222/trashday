@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E85717C6285AE72700F2547A /* DayOfWeekStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85717C5285AE72700F2547A /* DayOfWeekStyle.swift */; };
+		E85717C6285AE72700F2547A /* BlueTrashItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85717C5285AE72700F2547A /* BlueTrashItemStyle.swift */; };
+		E85717C8285E86B200F2547A /* GarbageClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85717C7285E86B200F2547A /* GarbageClassification.swift */; };
+		E85717CA285E8D4A00F2547A /* RedTrashItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85717C9285E8D4900F2547A /* RedTrashItemStyle.swift */; };
+		E85717CC285E8E5400F2547A /* GreenTrashItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85717CB285E8E5300F2547A /* GreenTrashItemStyle.swift */; };
+		E85717CE285EE07000F2547A /* BlackTrashItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85717CD285EE07000F2547A /* BlackTrashItemStyle.swift */; };
 		E8D299C82854BA2800847650 /* TrashDayNotificationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D299C72854BA2800847650 /* TrashDayNotificationApp.swift */; };
 		E8D299CA2854BA2800847650 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D299C92854BA2800847650 /* ContentView.swift */; };
 		E8D299CC2854BA2900847650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D299CB2854BA2900847650 /* Assets.xcassets */; };
@@ -16,7 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E85717C5285AE72700F2547A /* DayOfWeekStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfWeekStyle.swift; sourceTree = "<group>"; };
+		E85717C5285AE72700F2547A /* BlueTrashItemStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTrashItemStyle.swift; sourceTree = "<group>"; };
+		E85717C7285E86B200F2547A /* GarbageClassification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarbageClassification.swift; sourceTree = "<group>"; };
+		E85717C9285E8D4900F2547A /* RedTrashItemStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedTrashItemStyle.swift; sourceTree = "<group>"; };
+		E85717CB285E8E5300F2547A /* GreenTrashItemStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenTrashItemStyle.swift; sourceTree = "<group>"; };
+		E85717CD285EE07000F2547A /* BlackTrashItemStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackTrashItemStyle.swift; sourceTree = "<group>"; };
 		E8D299C42854BA2800847650 /* TrashDayNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrashDayNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D299C72854BA2800847650 /* TrashDayNotificationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashDayNotificationApp.swift; sourceTree = "<group>"; };
 		E8D299C92854BA2800847650 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,7 +47,11 @@
 		E8D299BB2854BA2800847650 = {
 			isa = PBXGroup;
 			children = (
-				E85717C5285AE72700F2547A /* DayOfWeekStyle.swift */,
+				E85717C7285E86B200F2547A /* GarbageClassification.swift */,
+				E85717C5285AE72700F2547A /* BlueTrashItemStyle.swift */,
+				E85717C9285E8D4900F2547A /* RedTrashItemStyle.swift */,
+				E85717CD285EE07000F2547A /* BlackTrashItemStyle.swift */,
+				E85717CB285E8E5300F2547A /* GreenTrashItemStyle.swift */,
 				E8D299C62854BA2800847650 /* TrashDayNotification */,
 				E8D299C52854BA2800847650 /* Products */,
 			);
@@ -145,8 +157,12 @@
 			files = (
 				E8D299CA2854BA2800847650 /* ContentView.swift in Sources */,
 				E8D299C82854BA2800847650 /* TrashDayNotificationApp.swift in Sources */,
+				E85717CA285E8D4A00F2547A /* RedTrashItemStyle.swift in Sources */,
+				E85717CE285EE07000F2547A /* BlackTrashItemStyle.swift in Sources */,
 				E8D299D62854BAD600847650 /* NotificationView.swift in Sources */,
-				E85717C6285AE72700F2547A /* DayOfWeekStyle.swift in Sources */,
+				E85717CC285E8E5400F2547A /* GreenTrashItemStyle.swift in Sources */,
+				E85717C6285AE72700F2547A /* BlueTrashItemStyle.swift in Sources */,
+				E85717C8285E86B200F2547A /* GarbageClassification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

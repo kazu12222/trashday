@@ -12,6 +12,7 @@ struct ContentView: View {
         NavigationView{
             List{
             NavigationLink("通知",destination: NotificationView())
+                NavigationLink("ゴミの分類",destination:GarbageClassification())
             }.navigationBarTitle("ゴミ出し通知アプリ")
         }
     }
@@ -22,3 +23,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

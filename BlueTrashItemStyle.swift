@@ -7,22 +7,22 @@
 
 import SwiftUI
 
-struct DayOfWeekStyle: View {
-    var weekofday : String
+struct BlueTrashItemStyle: View {
+    var trashitem : String
     var body: some View {
-        Text("\(weekofday)")
-                .frame(width: 110, height: 110)
+        Text("\(trashitem)")
+                .frame(width:150, height: 150)
                 .font(.system(size: 40,weight: .bold))
                 .foregroundColor(Color.white)
                 .background(Color.blue)
-                .clipShape(Rectangle())
+                .clipShape(Circle())
                 .padding()
         }
     
 }
 
-struct DayOfWeekStyle_Previews: PreviewProvider {
+struct BlueTrashItemStyle_Previews: PreviewProvider {
     static var previews: some View {
-        DayOfWeekStyle(weekofday:"曜日")
+        BlueTrashItemStyle(trashitem:"ごみ")
     }
 }
