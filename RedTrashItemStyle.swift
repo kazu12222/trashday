@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct RedTrashItemStyle: View {
+    var judgeflag = false
     var trashitem: String
     var body: some View {
         Text("\(trashitem)")
                 .frame(width:150, height: 150)
                 .font(.system(size: 40,weight: .bold))
                 .foregroundColor(Color.white)
-                .background(Color.red)
+                .background(judgeflag ? Color.red : Color.purple )
                 .clipShape(Circle())
                 .padding()
     }
@@ -22,6 +23,6 @@ struct RedTrashItemStyle: View {
 
 struct RedTrashItemStyle_Previews: PreviewProvider {
     static var previews: some View {
-        RedTrashItemStyle(trashitem:"燃えるゴミ")
+        RedTrashItemStyle(judgeflag: true,trashitem:"燃えるゴミ")
     }
 }

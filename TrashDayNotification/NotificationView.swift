@@ -15,6 +15,7 @@ struct NotificationView: View{
     @State private var isFriday = false
     @State private var isFive = false
     @State private var isTen = false
+
     
     enum Weekday: Int{
         case sunday = 1
